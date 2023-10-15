@@ -1,0 +1,245 @@
+.container {
+  width: 1107px;
+  margin: 0 auto;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+header {
+  background-color: #eeeff1;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.header-content a {
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+  color: #000000;
+}
+.header-content {
+  display: flex;
+  justify-content: flex-end;
+}
+header a:not(last-child) {
+  margin-right: 42px;
+}
+.screen {
+  padding-top: 154px;
+  padding-bottom: 153px;
+  background-color: #eeeff1;
+}
+.screen-content {
+  display: flex;
+}
+.screen .left {
+  width: 50%;
+}
+.screen .right {
+  width: 50%;
+}
+.screen-content h1 {
+  font-weight: 500;
+  font-size: 48px;
+  margin-bottom: 60px;
+}
+.screen-content p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin-bottom: 60px;
+}
+.screen-content button {
+  background-color: #34547a;
+  padding: 25px 41px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  border: none;
+}
+.about {
+  padding-top: 112px;
+  padding-bottom: 90px;
+  background-color: #e5e5e5;
+  text-align: center;
+}
+.about-content h2 {
+  font-weight: 500;
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+.about-content p {
+  width: 540px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #727272;
+}
+.features {
+  padding-top: 90px;
+  padding-bottom: 100px;
+  background-color: #34547a;
+  color: #ffffff;
+}
+.features-container {
+  display: flex;
+  justify-content: space-around;
+}
+.feature {
+  display: flex;
+  align-items: center;
+}
+.features img {
+  width: 50px;
+  margin-right: 20px;
+}
+.feature h3 {
+  font-weight: 500;
+  font-size: 21px;
+  margin-bottom: 10px;
+}
+.feature span {
+  font-weight: 400;
+  font-size: 16px;
+}
+.hero {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  background: #e5e5e5;
+}
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+}
+.hero h2 {
+  font-weight: 500;
+  font-size: 24px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.hero h1 {
+  font-weight: 500;
+  font-size: 50px;
+  color: #34547a;
+  margin-bottom: 30px;
+}
+.hero p {
+  font-weight: 300;
+  font-size: 21px;
+  color: #000000;
+  width: 438px;
+  margin-bottom: 40px;
+}
+.hero button {
+  border: none;
+  outline: none;
+  padding: 25px 41px;
+  background-color: #34547a;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+.hero img {
+  border: 10px solid #34547a;
+  border-radius: 1000px;
+}
+.video {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #eeeff1;
+  text-align: center;
+}
+.video h2 {
+  font-weight: 500;
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+.video p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  width: 540px;
+  margin: 0 auto;
+  margin-bottom: 57px;
+}
+.video iframe {
+  display: block;
+  width: 100%;
+  height: 600px;
+}
+.feedback {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #eeeff1;
+}
+.feedback h2 {
+  font-weight: 500;
+  font-size: 32px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.feedback p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  width: 540px;
+  margin: 0 auto;
+  margin-bottom: 65px;
+}
+.feedback form {
+  width: 540px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.feedback input {
+  width: 255px;
+  margin-bottom: 20px;
+  padding: 18px 20px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #5f5d5d;
+  border: none;
+}
+.feedback textarea {
+  width: 540px;
+  border: none;
+  padding: 17px 20px;
+  font-weight: 400;
+  font-size: 14px;
+  height: 175px;
+  color: #5f5d5d;
+  resize: none;
+  margin-bottom: 50px;
+}
+.feedback button {
+  display: block;
+  margin: 0 auto;
+  padding: 20px 40px;
+  border: none;
+  background: #34547a;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+}
+.bottom {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background-color: #34547a;
+  text-align: center;
+}
+.bottom h2 {
+  font-weight: 500;
+  font-size: 21px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.bottom p {
+  font-weight: 400;
+  font-size: 13px;
+  color: #ffffff;
+}
